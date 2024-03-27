@@ -5,12 +5,17 @@
 }
 
 .cell {
+    padding: 1px;
     width: 100px;
     height: 100px;
-    border: 1px solid black;
+    border: 1px solid #00000063;
+    border-radius: 12px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     font-size: 2em;
     cursor: pointer;
+    align-content: flex-end;
+    flex-wrap: wrap;
 }
+
